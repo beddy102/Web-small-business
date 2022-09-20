@@ -1,0 +1,233 @@
+/*
+#E8D58C
+#212121*/
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #212121;
+    border-left: solid 3px black;
+    border-right: solid 3px black;
+
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #e8d58c;
+    box-shadow: 0 3px 0 0 black;
+    border-top: solid 3px black;
+}
+
+.logo{
+    margin-left: 50px;
+    background-color: #e8d58c;
+    width: 120px;
+    height: 120px;
+}
+
+.ulNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+li{
+    color: #212121;
+    font-size: 22px;
+    font-weight: 600;
+    list-style: none;
+    margin-left: 200px;
+}
+
+.navHover:hover{
+    color: gray;
+    transition: color 0.2s ease-in;
+    border-bottom: solid 3px #212121;
+    border-radius: 3px;    
+}
+
+.mainSpan{
+    border-bottom: solid 3px #212121;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*container*/
+
+.best {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 30px;
+}
+
+.blyuda{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: #e8d58c;
+}
+
+.shawarma{
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: #e8d58c;
+    
+    width: 400px;
+    height: 300px;
+}
+
+.shawarmaImg{
+    padding-left: 75px;
+    padding-top: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+.shawarmaSpan{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.barbecue{
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: #e8d58c;
+    
+    width: 400px;
+    height: 300px;
+    
+    margin-left: 180px;
+}
+
+.barbecueImg{
+    padding-left: 75px;
+    padding-top: 5px;
+    width: 250px;
+    height: 200px;
+}
+.barbecueSpan {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.best2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 30px;
+}
+
+.burger{
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: #e8d58c;
+    
+    width: 400px;
+    height: 300px;    
+    
+}
+.burgerImg{
+    width: 250px;
+    height: 200px;
+    
+    padding-left: 75px;
+    padding-top: 5px;
+}
+
+.burgerSpan{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    box-shadow: 0 0 0 3px black;
+    border-bottom: solid 3px black;
+    margin-top: 70px;
+    width: 100%;
+    height: 120px;
+    background-color: #e8d58c;
+}
+.copywrite{
+    padding-left: 20px;
+    padding-top: 85px;
+    padding-right: 680px;
+}
+.cwS{
+    border-top: solid 1px #212121;
+    padding-top: 10px;    
+    
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.instagram{
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram:hover{
+    animation: bounce 1s;
+}
+
+.facebook{
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.facebook:hover{
+    animation: bounce 1s;
+}
+
+.twitter{
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 50px;
+    height: 55px;
+}
+
+.twitter:hover{
+    animation: bounce 1s;
+}
+
+
+
+
